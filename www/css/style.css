@@ -17,7 +17,7 @@
 }
 
 .slideleft{
-  background: #fff url(http://iweb.uz/azik/wp-content/uploads/2012/10/samarkand1.jpg) bottom right;
+  background: url(../images/fusuma1.png) bottom right;
   border-left: solid 200px #ccc; 
 }
 
@@ -26,8 +26,9 @@
 }
 
 .slideright{
-  background: #fff url(http://iweb.uz/azik/wp-content/uploads/2012/10/samarkand1.jpg) left;
+  background: url(http://iweb.uz/azik/wp-content/uploads/2012/10/samarkand1.jpg) left;
   border-right: solid 200px #ccc; 
+  border-color: transparent;
 }
 
 .slideright:hover{
@@ -35,10 +36,23 @@
 }
 
 .top: {
+	background-color: 
 	color: #000000;
 	font-family: 
 	writing-mode: vertical-rl;
 	-ms-writing-mode: tb-rl;
 	-webkit-writing-mode:vertical-rl;
+}
+
+.start: {
+
+}
+
+.senryu1: {
+	display: none;
+}
+
+.input: {
+	display: none;
 }
 

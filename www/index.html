@@ -8,10 +8,48 @@
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
     <script>
+       $(document).ready(function (){
+        $(".senryu1").hide();
+        $(".input").hide();
+       })
+       function play(){
+        $(".start").hide();
+        $(".senryu1").show();
+       }
+      function input(){
+        $(".senryu1").hide();
+        $(".input").show();
+      }
     </script>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+　<br>
+　<div class=top>
+    よなげき 川柳
+ </div>
+ <div class="start">
+     <button onclick="play()">start</button>
+ </div>
+
+ <div class="senryu1">
+     <button onclick="input()">input</button>
+ </div>
+
+ <div class="input">
+     <textarea></textarea>
+     <button>finish</button>
+ </div>
+    
+
+    <div class="slidingdoors">
+        <div class="slideright">
+            <img src="images/fusuma2.png">
+        </div>
+        <div class="slideleft">
+            <img src="images/fusuma1.png">
+        </div>
+        
+    </div>
+
 </body>
 </html>
